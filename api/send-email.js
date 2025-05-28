@@ -8,7 +8,7 @@ export default async (req, res) => {
   try {
     await resend.emails.send({
       from: 'Твоето Име <onboarding@resend.dev>',
-      to: 'your@email.com',
+      to: 'oktim.v@gmail.com',
       subject: `Ново съобщение: ${subject}`,
       html: `<p><strong>Име:</strong> ${name}</p><p><strong>Имейл:</strong> ${email}</p><p><strong>Съобщение:</strong><br>${message}</p>`
     });
